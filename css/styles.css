@@ -34001,8 +34001,8 @@ html.ios {
   --grayscale: 0%;}
 
 /* line 10, /Users/Danielle/lvl-3/css/styles.scss */
+
 img {
-    height: 50%;
   padding: var(--spacing);
   background: var(--base);
   filter: grayscale(var(--grayscale));
