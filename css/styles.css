@@ -34002,7 +34002,8 @@ html.ios {
 
 /* line 10, /Users/Danielle/lvl-3/css/styles.scss */
 
-img {
+#img {
+    z-index: -1;
   padding: var(--spacing);
   background: var(--base);
   filter: grayscale(var(--grayscale));
@@ -34034,3 +34035,75 @@ input {
   width: 100px; }
 
 /*# sourceMappingURL=styles.css.map */
+
+#draggable1 { 
+    z-index: 1;
+    display: block;
+    position: absolute;
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em;
+    top: 4em;
+}
+
+#draggable2 { 
+    z-index: 1;
+    display: block;
+    position: absolute;
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; 
+    top: 6em;
+
+}
+
+#draggable3 { 
+    z-index: 1;
+    display: block;
+    position: absolute;
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; 
+    top: 8em;
+
+}
+
+#draggable4 { 
+    z-index: 1;
+    display: block;
+    position: absolute;
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em;
+    top: 9em;
+
+}
+
+#draggable5 { 
+    z-index: 1;
+    display: block;
+    position: absolute;
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em;
+    top: 10em;
+
+}
+
+.bandana{
+    z-index: 1;
+    height: 200px;
+    width: 350px;
+}
+
+.necklace{
+    z-index: 1;
+    height: 300px;
+    width: 320px;
+    transform: rotate(-13deg);
+    
+}
+
+.sticker{
+    height: 50px;
+}
